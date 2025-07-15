@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Budget Tracker</h1>
+  <div id="balance">Balance: ₹0</div>
+
+  <form id="transaction-form">
+    <input type="text" id="description" placeholder="Description" required />
+    <input type="number" id="amount" placeholder="Amount" required />
+    <select id="type">
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+    <button type="submit">Add</button>
+  </form>
+
+  <ul id="transactions"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
