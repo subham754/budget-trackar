@@ -14,4 +14,4 @@ This is a simple web-based Budget Tracker app that allows you to add income and 
 - JavaScript
 
 ## Live Link
-[Click here to view](https://your-username.github.io/budget-tracker/)
+[Click here to view](https://subham754.github.io/budget-trackar/)
